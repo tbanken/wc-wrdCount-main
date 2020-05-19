@@ -1,0 +1,11 @@
+<h1 style = "text-align: center;">
+    <a style = "text-align: center;"href="{% url 'about' %}">About</a>
+    WORD COUNT BABYYYYYYY</h1>
+
+
+
+<form style = "text-align: center;"action ="{%url 'count' %}">
+    <textarea cols = "40" rows = "5" name="fulltext"></textarea>
+    <br>
+     <input  type = "submit" value="Count!"/>
+</form>
